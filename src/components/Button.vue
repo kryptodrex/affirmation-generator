@@ -32,7 +32,7 @@ div[class*='button'] {
   background-color: rgb(128, 68, 163);
   border: 0.2rem solid rgb(128, 68, 163);
   color: white;
-  margin: 0 auto;
+  margin: 0 1rem;
   width: fit-content;
   cursor: pointer;
   transition: 0.2s;
