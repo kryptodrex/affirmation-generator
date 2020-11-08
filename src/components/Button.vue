@@ -32,7 +32,7 @@ div[class*='button'] {
   background-color: rgb(128, 68, 163);
   border: 0.2rem solid rgb(128, 68, 163);
   color: white;
-  margin: 0 1rem;
+  margin: 1rem 0;
   width: fit-content;
   cursor: pointer;
   transition: 0.2s;
@@ -51,6 +51,15 @@ div[class*='button'] {
 div[class*='button']:hover, div[class*='button']:focus {
     background-color: white;
     color: rgb(128, 68, 163);
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+  div[class*='button'] {
+    margin: 0 1rem;
+  }
+
 }
 
 </style>
