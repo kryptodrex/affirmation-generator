@@ -8,16 +8,6 @@ export default {
         } else {
             return api.get(`${resource}/affirmation`);
         }
-    },
-
-    getEntity(text) {
-        if (text != ""){
-            return api.post(`${resource}/analyze-entities`, {
-                "text": text
-            })
-        } else {
-            return "Need text to process!";
-        }
     }
 
 };
