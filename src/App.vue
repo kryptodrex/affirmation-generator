@@ -20,7 +20,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: rgb(128, 68, 163);;
+  color: rgb(128, 68, 163);
 
   display: flex;
   align-items: center;
