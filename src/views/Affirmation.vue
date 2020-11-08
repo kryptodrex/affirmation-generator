@@ -10,10 +10,16 @@
       </p>
       <p class="affirmationText">{{ affirmationData.affirmation }}.</p>
 
-      <div v-on:click="isCopied = true">
-        <Button id="copyBtn" text="Copy share link" size="medium" v-clipboard="shareUrl"/>
-        <p v-if="isCopied" class="copied"> Link copied! </p>
+      <div class="actionButtons">
+        <a href="/affirmation">
+           <Button text="Generate new affirmation" size="medium" />
+        </a>
+        <div v-on:click="isCopied = true">
+          <Button id="copyBtn" text="Copy share link" size="medium" v-clipboard="shareUrl"/>
+        </div>
       </div>
+      <p v-if="isCopied" class="copied"> Link copied! </p>
+      
     </div>
   </div>
 </template>
@@ -113,6 +119,13 @@ img {
 .affirmationText {
   margin: 1.2rem;
   font-size: 120%;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .copied {
