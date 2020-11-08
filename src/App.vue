@@ -20,16 +20,26 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: rgb(128, 68, 163);;
 
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+
+  padding: 0.5rem;
 }
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+
+  #app {
+    padding: 1rem;
+  }
+
 }
 
 </style>
