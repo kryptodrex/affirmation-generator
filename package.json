@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "buildProd": "vue-cli-service build --mode production --target app --modern"
+    "buildProd": "vue-cli-service build --mode production",
+    "buildTemp": "vue-cli-service build --mode production --target app --modern"
   },
   "dependencies": {
     "axios": "^0.21.1",
