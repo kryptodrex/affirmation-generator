@@ -8,11 +8,11 @@
     "buildProd": "vue-cli-service build --mode production --target app --modern"
   },
   "dependencies": {
-    "axios": "^0.21.0",
-    "core-js": "^3.6.5",
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
     "v-clipboard": "^2.2.3",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0-alpha.3",
